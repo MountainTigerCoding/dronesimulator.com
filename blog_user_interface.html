@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drone Simulator - User Interface</title>
+    <link href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css\shared.css">
+    <link rel="stylesheet" href="css\blog.css">
+    <link rel="stylesheet" href="css\user_interface_blog.css">
+</head>
+
+<body>
+<!-- Nav Top -->
+    <div class="nav-top-gradient"></div>
+        <div class="navigation-top" id="transparent-background">
+            <a id="button-navigation" href = "index.html">Home</a>
+            <a id="button-navigation" href = "blogs.html">Blogs</a>
+            <a id="button-navigation" href = "image_gallery.html">Media Gallery</a>
+            <a id="button-navigation" href = "contact.html">Contact</a>
+            <a id="button-navigation" href = "page_error.html">Report Bug</a>
+        </div>
+    <div class="nav-top-section"></div>
+<!-- Nav Top -->
+    
+    <h2 id="heading">Blog #2 - User Interface</h2>
+    <div class="blog-body">
+        <h4>
+            It's been a while since the last update and a lot has happened since then.
+            I have been mainly developing the user interface but also continued to work on the landscape, river/lakes, snow, day/night cycle and automating aspects of level design like placing rocks and trees.
+        </h4>
+
+<!-- What is the User Interface? -->
+        <h3 id="blog-heading">What Is a User Interface?</h3>
+        <div class="blog-user-interface-grid">
+            <h4 class="blog-user-interface-intro-zero">
+                UI refers to all the elements on screen that allow the user to interact with the application. It commonly consists of buttons, text, sliders, icons, menus etc.
+                I originally set up a simple UI at the beginning but it was cobbled together and had several technical limitations.
+                <br><br><br>
+                All of these problems made adding a new UI a slow and increasingly complex process. So, I decided to start again. Here are some samples of parts of the project that have received (mostly) working UI. You can click on the images below to view a short preview of how they function.
+            </h4>
+            <img src="media/3_months/ds_3_months_ui.png" class="blog-user-interface-example"> </img>
+        </div>
+
+<!-- Demos -->
+        <h3 id="blog-heading">Accounts and Profile Management</h3>
+        <h4>NB: I recommend clicking on the 'out arrow' to better view aswell as increasing the quality it to 1080p (default 720p)</h4>
+
+        <iframe src="https://drive.google.com/file/d/1WnndlVHbAZQyy6iaBr6LeRRpsxGAnmFt/preview" id="blog-image-frame" width="870" height="450"></iframe>
+
+        <h3 id="blog-heading">Main Menu</h3>
+        <iframe src="https://drive.google.com/file/d/1oyurTICOuz5kppl6_K7rEekCUsREzVi_/preview" id="blog-image-frame" width="870" height="450"></iframe>
+
+        <h3 id="blog-heading">Drone and Takeoff Location Selector</h3>
+        <iframe src="https://drive.google.com/file/d/1RIBPOLZFeZ_htpb7Wu77WZ-JHFZVLeEz/preview" id="blog-image-frame" width="870" height="450"></iframe>
+
+<!-- Style and Feel -->
+        <h3 id="blog-heading">Style and Feel</h3>
+        <h4>
+            One feature that was essential to include with this UI update was a style guide system. This allowed me to change all the UI aesthetics from one place, keeping the UI colours and sizes coherent and flexible. <a id="hyperlink" href ="https://unity.com/">Unity</a> (the game engine I'm using) doesn't come with a built-in style guide/theme system, so I had to code my own. With this system, I plan to include an accessibility option to switch from the default system to one that has extra contrast or is colour blind friendly.
+            <br>
+            Currently all the colours and shapes are just placeholders as I haven't come up with a unique UI style. This will come with time as the project gets developed.
+        </h4>
+
+<!-- Other UI Feature -->
+        <h4 id="blog-heading">Other Features</h4>
+        <h4>A common feature that most applications have is a tooltip. This is simply a message that gets displayed when hovering over certain objects.</h4>
+        <img src="blogs/user_interface/tooltip.gif" id="blog-image-frame">
+
+        <h4>I also added a generic dialogue box which can be customised to ask questions or get inputs from the user (text field, checkbox, slider)</h4>
+        <img src="blogs/user_interface/dialogue_box.gif" id="blog-image-frame">
+
+<!-- Things to Consider -->
+        <h3 id="blog-heading">Things to Still Add or Consider</h3>
+        <ul id="list-normal">
+            <li>
+                <h4>World map</h4>
+            </li>
+            <li>
+                <h4>Drone <a href="https://en.wikipedia.org/wiki/Head-up_display" id="hyperlink">HUD </a>(UI when flying a drone)</h4>
+            </li>
+            <li>
+                <h4>More interesting loading screen, currently it's just a randomly chosen image with a boring progress bar</h4>                
+            </li>
+            <li>
+                <h4>Better font type</h4>
+            </li>
+        </ul>
+
+        <h4><br>That's all for this update, if you have any feedback then please<a id="hyperlink" href="mailto:shaanmonis@gmail.com"> let me know</a>.</h4>
+    </div>
+
+<!-- Nav Bottom -->
+    <div class="navigation-back-to-top">
+        <a id="button-navigation" href='#'>Back to top</a>
+    </div>
+
+    <div class="navigation-bottom">
+        <a id="button-navigation" href="mailto:shaanmonis@gmail.com">Contact</a>
+        <a id="button-navigation">Cookies</a>
+        <a id="button-navigation">Privacy policy</a>
+        <a id="button-navigation">Copyright Mountain Tiger 2024</a>
+    </div>
+<!-- Nav Bottom -->
+</body>
+</html>

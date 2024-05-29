@@ -1,0 +1,159 @@
+.blog-list-heading {
+    margin-top: 0px;
+}
+
+/* Blog Page */
+.section-0 {
+    position: absolute;
+    background-image: url("../media/6_months/DS_Forest_Path_4K.png");
+    height: 950px;
+}
+
+.blog-list-container {
+    display: block;
+    width: 50%;
+    min-width: 500px;
+    max-width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 5px solid rgba(223, 223, 223, 0.466);
+
+    background-color: rgba(161, 161, 161, 0.479);
+}
+
+.blog-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+    
+    align-content: center;
+    justify-items: center;
+
+    border-radius: 10px;
+    border-width: 10px;
+
+    text-align: center;
+}
+    /* Item */
+    #blog-item {
+        display: flexbox;
+
+        transition: 0.2s;
+        width: 95%;
+        height: 120px;
+
+        background-color: rgb(110, 110, 110);
+        text-decoration: none;
+    }
+
+    #blog-item:hover {
+        transition: 0.4s;
+        width: 100%;
+    }
+
+    #blog-item:hover > #blog-item-grid > .blog-item-info > .blog-item-header {
+        text-decoration: underline;
+    }
+
+    #blog-item:hover > #blog-item-grid > .blog-item-icon {
+        transition: 0.4s;
+    }
+
+    #blog-item-grid {
+        display: grid;
+        width: inherit;
+        height: inherit;
+        grid-template-columns: 5fr 7fr 1fr;
+        justify-content: center;
+    }
+
+    .blog-item-icon {
+        display: block;
+        object-fit: cover;
+        /*object-fit: contain;*/
+        width: 100%;
+        max-width: 250px;
+        height: inherit;
+    }
+
+    .blog-item-info {
+        display: block;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .blog-item-header {
+        display: block;
+        margin-bottom: 5px;
+        white-space: nowrap;
+
+        font-size: 25px;
+        font-weight: bold;
+        text-align: left;
+    }
+
+    .blog-item-date {
+        display: block;
+        position: relative;
+
+        text-align: right;
+        font-size: 18px;
+    }
+
+    .blog-item-description {
+        display: block;
+
+        font-size: 20px;
+        text-align: left;
+
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 3; /* number of lines to show */
+        line-clamp: 3; 
+        -webkit-box-orient: vertical;
+    }
+    /* Item */
+/* Blog Page */
+
+/* Blog Structure */
+.blog-body {
+    width: 65%;
+    padding: 30px;
+    margin: 0 auto;
+
+    justify-self: center;
+
+    margin-top: 20px;
+
+    background-color: rgb(70, 70, 70);
+
+    border-style: solid;
+    border-color: rgb(102, 102, 102);
+    border-width: 5px;
+
+    border-radius: 10px;
+}
+
+#blog-heading {
+    margin-top: 20px;
+    margin-bottom: 2px;
+    font-weight: bold !important;
+    font-size: 1.5vw;
+}
+
+#blog-image-frame {
+    width: auto;
+    max-width: 20vw;
+    min-width: 260px;
+    margin-top: 5px;
+    height: auto;
+}
+/* Blog Structure */

@@ -1,0 +1,144 @@
+#text-descriptor {
+    height: auto;
+    text-shadow: 0px 0.08em #2e2e2e;
+    font-weight: bold;
+}
+
+/* Section 0 */
+.section-0 {   
+    height: 100vh;
+    min-height: 300px;
+    background-image: url("../media/6_months/DS_Forest_Above_Looking_Down_4K.png");
+}
+
+.header-container {
+    z-index: 10;
+    display: block;
+    width: 99%;
+    margin-top: 9vh;
+    padding-bottom: 10px;
+
+    background-color: rgba(255, 103, 103, 0);
+    word-wrap: nowrap;
+}
+
+    /* Quicklinks */
+    .quick-links-navigation {
+        display: flex;
+        width: 60%;
+        height: 60px;
+        min-height: 8vh;
+        margin: 0 auto;
+        margin-top: 10vh;
+
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        gap: 5px;
+    }
+
+    .quick-links-navigation a {
+        font-size: 2vw !important;
+        border: 4px solid #f2fcf9 !important;
+        margin-left: 5px;
+        margin-right: 5px;
+        font-weight: bold;
+    }
+    /* Quicklinks */
+/* Section 0 */
+
+/* Section 1 */
+.section-1 {
+    height: 60vh;
+    min-height: 300px;
+    background-image: url("../media/6_months/DS_Forest_Drone_Plants_4K.png");
+}
+
+.section-1-gradient {
+    height: 80%;
+    background-image: linear-gradient(rgba(41, 41, 41, 0.74), transparent);
+}
+
+.section-1-text {
+    margin: 0 auto;
+    width: 43%;
+    max-width: 1000px;
+    max-height: 1vh;
+    padding-top: 16vh;
+
+    text-align: center;
+}
+/* Section1 */
+
+/* Section 2 */
+.section-2 {
+    height: 60vh;
+    min-height: 300px;
+    background-image: url("../media/6_months/DS_Forest_River_Low_4K.png");
+}
+
+.section-2-gradient {
+    width: 60%;
+    height: 100%;
+    width: 100%;
+
+    background-image: linear-gradient(270deg, rgba(41, 41, 41, 0.74), transparent);
+}
+
+.section-2-text {
+    width: 50%;
+    margin: auto auto;
+    margin-left: 45%;
+    padding-top: 15vh;
+}
+/* Section 2 */
+
+.playstyle-gradient {
+    width: 35%;
+    height: 100%;
+
+    background-image: linear-gradient(90deg, rgba(41, 41, 41, 0.74), transparent);
+}
+
+.playstyle-text {
+    width: 100%;
+    margin: 0px auto;
+    margin-left: 20%;
+    padding-top: 12vh;
+}
+
+/* Section 3 */
+.section-3 {
+    height: 40vh;
+    min-height: 150px;
+
+    background-image: url("../media/2_weeks/main_menu_background.png");
+    box-shadow: 0px 20px 20px inset rgba(39, 39, 39, 0.432), 0px -20px 20px inset rgba(39, 39, 39, 0.432);
+}
+/* Section 3 */
+
+/* Section 4 */
+.section-4 {
+    height: 40vh;
+    min-height: 150px;
+
+    background-image: url("../media/6_months/DS_Drone_looking_Into_Sun_4K.png");
+    box-shadow: 0px 40px 40px inset rgba(39, 39, 39, 0.432), 0px -40px 40px inset rgba(39, 39, 39, 0.432);
+}
+
+/* Section 5 */
+.section-5 {
+    height: 40vh;
+    min-height: 150px;
+
+    background-image: url("../media/6_months/DS_Drone_Tilted_Action_4K.png");
+    box-shadow: 0px 40px 40px inset rgba(39, 39, 39, 0.432), 0px -40px 40px inset rgba(39, 39, 39, 0.432);
+}
+
+/* Section 6 */
+.section-6 {
+    height: 100vh;
+    min-height: 100px;
+
+    background-image: url("../media/6_months/DS_Forest_Trees_Sun_4K.png");
+}

@@ -1,0 +1,19 @@
+.blog-user-interface-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 30px;
+
+    padding-bottom: 20px;
+}
+
+.blog-user-interface-intro-one {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.blog-user-interface-example {
+    width: 60%;
+
+    background-size: contain;
+    border-radius: 5px;
+}
